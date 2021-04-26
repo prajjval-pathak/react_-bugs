@@ -1,0 +1,103 @@
+.landing {
+  position: relative;
+  background: url("../../images/showcase.jpg");
+  height: 100vh;
+}
+
+.landing-inner {
+  color: #fff;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.dash-buttons a {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.2rem;
+}
+.btn {
+  display: inline-block;
+  background: #f4f4f4;
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
+
+.btn.btn-primary {
+  background-color: #b88017;
+  color: #fff;
+}
+
+.btn.btn-primary:hover {
+  background: #cf901a;
+}
+
+.btn.btn-dark {
+  background-color: #403734;
+  color: #fff;
+}
+
+.btn.btn-dark:hover {
+  background: #4e433f;
+}
+
+.btn.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn.btn-success:hover {
+  background: #2dbc4e;
+}
+
+.btn.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn.btn-danger:hover {
+  background: #e04b59;
+}
+
+.btn:hover {
+  background: #786762;
+  color: #fff;
+}
